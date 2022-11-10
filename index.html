@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="Ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>설문조사</title>
+  </head>
+  <body>
+    <form>
+      <!-- 설문지 안내 제목 -->
+      <div class="white-box" id="title-box">
+        <div class="title-box_style"></div>
+        <h1 class="title">[대기자 신청] 2023년 상반기 마스터즈</h1>
+        <p>
+          코드스쿼드에서 진행하는 2023년 마스터즈에 대기자로 신청합니다.<br />
+          아래 내용을 작성 후 제출하시면, 올해 11월 말에 과정 모집 안내를 가장
+          빨리 받아보실 수 있습니다.
+        </p>
+        <div>
+          <p>
+            👉안내는 메일로 드릴 예정입니다. 자주 사용하는 이메일 주소를
+            제출하세요.<br />
+            👉기타 문의는 카카오톡 채널(@코드스쿼드)을 이용하세요.
+          </p>
+        </div>
+        <div class="title-email">
+          <div>
+            minjeenala@gmail.com <a href="#">계정 전환</a>
+            <div id="essential">*필수항목</div>
+          </div>
+          <div>🚀</div>
+        </div>
+      </div>
+
+      <!-- 이메일 항목 -->
+      <div class="white-box">
+        <div class="form-title">이메일<span class="star-red">*</span></div>
+        <label for="email"></label>
+        <input required placeholder="이메일 주소" id="email" type="email" />
+      </div>
+      <!-- 선택 항목 -->
+      <div class="white-box">
+        <div class="form-title">
+          다음 클래스에 대기자로 신청합니다.<span class="star-red">*</span>
+        </div>
+        <div>
+          <div>
+            <!-- 에러작성할것 -->
+            <input type="radio" id="javascript" />
+            <label for="javascript">웹 프로트엔드(javascript)</label>
+          </div>
+          <div>
+            <input id="java" type="radio" />
+            <label for="java">웹 백엔드(java)</label>
+          </div>
+          <div>
+            <input id="swift" type="radio" />
+            <label for="swift">모바일 iOS(Swift)</label>
+          </div>
+          <div>
+            <input id="kotiln" type="radio" />
+            <label for="kotiln">모바일 Android(Kotiln)</label>
+          </div>
+        </div>
+      </div>
+      <!-- 이름 항목 -->
+      <div class="white-box">
+        <div class="form-title ex-title">
+          이름<span class="star-red">*</span>
+        </div>
+        <div class="form-explain">신청자 본인의 이름을 입력하세요.</div>
+        <label for="name"></label>
+        <input required placeholder="내 답변" type="text" id="name" />
+      </div>
+      <!-- 연락처 항목 -->
+      <div class="white-box">
+        <div class="form-title ex-title">
+          연락처<span class="star-red">*</span>
+        </div>
+        <div class="form-explain">
+          휴대폰 번호를 다음과 같이 입력하세요(ex. 010-1234-1234)
+        </div>
+        <label for="phone"></label>
+        <input required placeholder="내 답변" type="text" id="phone" />
+      </div>
+      <div>
+        <input type="submit" />
+        <button>양식 지우기</button>
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+* {
+    font-size: 15px;
+}
+.star-red {
+    color: red;
+}
+body {
+    background-color: #a3b18a;
+}
+/* 설문지 안내 제목 */
+.white-box {
+    background-color: white;
+    margin: 15px 10px;
+    padding: 27px;
+    border-radius: 10px;
+}
+.title-box_style {
+    height: 10px;
+    background-color: #588157;
+}
+p {
+    font-size: small;
+}
+.title {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.title-email{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    border-top: 1px solid rgba(0, 0, 0, .3);
+}
+
+#essential {
+    padding: 13px 0;
+}
+
+/* 이메일 항목  */
+.form-title {
+    padding-bottom: 20px;
+}
+input {
+    /* 에러 작성하기 */
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    padding-bottom: 5px;
+}
+input:focus {
+    border: none;
+    /* border-bottom: 1px solid #3a5a40; */
+}
+
+/* 이름 항목 */
+.form-explain {
+    padding-bottom: 25px;
+    font-size: small;
+}
+.ex-title {
+    padding-bottom: 0;
+
+}
+/* 연락처 항목 */
